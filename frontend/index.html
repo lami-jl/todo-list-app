@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>todo list</title>
+<link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>Todo List Manager</h1>
+
+<div class="card">
+  <h2>Crea nuova lista</h2>
+  <section>
+    
+  <input type="text" id="user-id" placeholder="nome">
+   <input id="description-input" placeholder="Descrizione">
+  <button id="get-user" class="scrittura">➕ Aggiungi lista</button>
+</section>
+</div>
+
+<div class="card">
+  <h2> 📚 Liste</h2>
+   <button id="get-users" class="scrittura">📋 Visualizza liste</button>
+<div id="get-users-result"></div>
+</div>
+
+
+<div class="card" id="tasks-section" style="display:none;">
+  <h2>📋 Tasks</h2>
+
+  <input id="task-name" placeholder="nuovo task">
+  <button id="add-task" class="scrittura">  ➕ Aggiungi task </button>
+
+  <div id="tasks-container"></div>
+</div>
+<script src="api.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
