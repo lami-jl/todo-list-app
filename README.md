@@ -1,88 +1,55 @@
-#  Todo List App
+# todo-list-manager-node
+# Todo List Manager
 
-Simple full-stack Todo List application built with Node.js.
+Questo progetto è una semplice applicazione web per gestire delle **liste di attività (todo list)**.
 
-## Features
+L’utente può creare nuove liste e aggiungere task per organizzare le proprie attività.
 
-* Create tasks
-* Mark tasks as completed
-* Delete tasks
-* Persistent storage with SQLite
+---
 
-##  Tech Stack
+## Funzionalità
 
-* Backend: Node.js + Express
-* Database: SQLite
-* Frontend: (HTML / CSS / JS)
+* Creare una nuova lista
+* Visualizzare tutte le liste
+* Modificare o eliminare una lista
+* Aggiungere task ad una lista
+* Eliminare un task
+* Segnare un task come completato
 
-##  Installation
+---
 
-Clone the repository:
+## Tecnologie utilizzate
 
-```bash
-git clone link
-cd todo-list-app
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express
+* SQLite
+
+---
+
+## Come avviare il progetto
+
+1. Aprire il terminale nella cartella **backend**
+
+2. Installare le dipendenze
+
 ```
-
-Install dependencies:
-
-```bash
-cd backend
 npm install
 ```
 
-If you have a frontend:
-
-```bash
-cd ../frontend
-npm install
-```
-
-## Run the project
-
-Start the backend:
-
-```bash
-cd backend
-node server.js
-```
-
-Or:
-
-```bash
-npm start
-```
-
-Start the frontend:
-
-```bash
-cd frontend
-npm start
-```
-
-##  Database
-
-The project uses SQLite.
-
-The database file will be created automatically at:
+3. Avviare il server
 
 ```
-/database/app.sqlite
+npm run dev 
 ```
 
-##  Notes
+4. Aprire il file **index.html** nel browser.
 
-* `node_modules` are not included
-* `.env` file is not included
-* Database is generated automatically
+---
 
-##  Future Improvements
+## Autore
 
-* Authentication (login/register)
-* Better UI
-* API validation
-* Deployment
-
-## 👤 Author
-
-Lamiae jalal
+Lamiae Jalal
+Progetto didattico per esercitazione sviluppo web.
